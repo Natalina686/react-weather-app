@@ -5,7 +5,7 @@ import "./App.css";
 export default function App() {
   return (
     <div className="App">
-      <h1>Weather app</h1>
+      <h1>Weather App</h1>
       <footer>
         This project was coded by{" "}
         <a href="" target="_blank">
