@@ -1,0 +1,56 @@
+.Weather {
+  position: relative;
+  color: #45484c;
+  border: 1px solid rgb(169, 188, 194);
+  border-radius: 6px;
+  padding: 20px;
+}
+.Weather::before {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background: bottom/100% url(../src/sky-violet.jpg);
+  opacity: 0.4;
+  content: "";
+  z-index: -1;
+}
+.Weather h1 {
+  color: rgb(89, 86, 92);
+  font-size: 48px;
+  line-height: 52px;
+  font-weight: 400;
+  margin: 10px 0 0 0;
+}
+.Weather ul {
+  margin: 0;
+  padding: 0;
+}
+.Weather li {
+  font-size: 16px;
+  font-weight: 100;
+  line-height: 20px;
+  list-style: none;
+}
+.Weather canvas {
+  margin-right: 10px;
+  margin-top: -5px;
+  display: inline-block;
+}
+.Weather .temperature {
+  font-weight: bold;
+  font-size: 64px;
+  line-height: 64px;
+  font-weight: 400;
+  color: #212326;
+}
+.Weather .unit {
+  font-size: 16px;
+  font-weight: 400;
+  position: relative;
+  top: -36px;
+  margin-left: 5px;
+  line-height: 1;
+  text-decoration: none;
+}
